@@ -1,0 +1,338 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "Auth API Docs",
+        "version": "1.0.0",
+        "description": "APIs Documentation Using Swagger UI Express",
+        "license": {
+            "name": "Swagger UI Express Documentation",
+            "url": "https://www.npmjs.com/package/swagger-ui-express"
+        }
+    },
+    "consumes": [
+        "application/json",
+        "multipart/form-data"
+    ],
+    "produces": [
+        "application/json",
+        "multipart/form-data"
+    ],
+    "servers": [
+        {
+            "url": "http://localhost:3000"
+        },
+        {
+            "url": "http://api.mern.co.in"   
+        }
+    ],
+    "tags": [
+        {
+            "name": "Auth",
+            "description": "Authorization endpoints"
+        },
+        {
+            "name": "User",
+            "description": "User endpoints"
+        }
+    ],
+    "paths": {
+        "/auth/register": {
+            "post": {
+                "summary": "Register a new user",
+                "tags": [
+                    "Auth"
+                ],
+                "description": "Register a new user in the system",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/RegistrationRequest"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Successful operation",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/RegistrationResponse"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad request (invalid request body)",
+                        "content": {}
+                    }
+                }
+            }
+        },
+        "/auth/login": {
+            "post": {
+                "summary": "User authentication",
+                "tags": [
+                    "Auth"
+                ],
+                "description": "Authenticate a user in the system",
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/LoginRequest"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful operation",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/LoginResponse"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized request"
+                    }
+                }
+            }
+        },
+        "/auth/logout": {
+            "post": {
+                "summary": "User logout",
+                "tags": [
+                    "Auth"
+                ],
+                "description": "Log a user out of the system",
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful logout"
+                    },
+                    "401": {
+                        "description": "Unauthorized request"
+                    }
+                }
+            }
+        },
+        "/users/current": {
+            "get": {
+                "summary": "Get the current user",
+                "tags": [
+                    "User"
+                ],
+                "description": "Retrieve data about the currently authorized user",
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/User"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized request"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "RegistrationRequest": {
+                "type": "object",
+                "required": [
+                    "name",
+                    "email",
+                    "password"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "example": "Vijay Pratap Singh",
+                        "description": "User's name"
+                    },
+                    "email": {
+                        "type": "string",
+                        "format": "email",
+                        "example": "vijaypratapsingh@gmail.com",
+                        "description": "User's email"
+                    },
+                    "password": {
+                        "type": "string",
+                        "example": "password@123",
+                        "description": "User's password"
+                    }
+                }
+            },
+            "RegistrationResponse": {
+                "type": "object",
+                "properties": {
+                    "token": {
+                        "type": "string",
+                        "example": "your authentication token"
+                    },
+                    "user": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string",
+                                "example": "Vijay Pratap Singh"
+                            },
+                            "email": {
+                                "type": "string",
+                                "format": "email",
+                                "example": "vijaypratapsingh@gmail.com"
+                            },
+                            "avatarURL": {
+                                "type": "string",
+                                "example": "//www.gravatar.com/avatar/681cc53f6ba12f990cc1ae04f63ee53c"
+                            },
+                            "userParams": {
+                                "type": "object",
+                                "example": {}
+                            },
+                            "createdAt": {
+                                "type": "date",
+                                "example": "2023-09-19T19:55:19.539+00:00"
+                            }
+                        }
+                    }
+                }
+            },
+            "LoginRequest": {
+                "type": "object",
+                "required": [
+                    "email",
+                    "password"
+                ],
+                "properties": {
+                    "email": {
+                        "type": "string",
+                        "example": "vijaypratapsingh@gmail.com",
+                        "description": "User's email"
+                    },
+                    "password": {
+                        "type": "string",
+                        "example": "password@123",
+                        "description": "User's password"
+                    }
+                }
+            },
+            "LoginResponse": {
+                "type": "object",
+                "properties": {
+                    "token": {
+                        "type": "string",
+                        "example": "your authentication token"
+                    },
+                    "user": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string",
+                                "example": "Vijay Pratap Singh"
+                            },
+                            "email": {
+                                "type": "string",
+                                "format": "email",
+                                "example": "vijaypratapsingh@gmail.com"
+                            },
+                            "avatarURL": {
+                                "type": "string",
+                                "example": "//www.gravatar.com/avatar/681cc53f6ba12f990cc1ae04f63ee53c"
+                            },
+                            "userParams": {
+                                "type": "object",
+                                "example": {
+                                    "height": 190,
+                                    "currentWeight": 82,
+                                    "desiredWeight": 74,
+                                    "birthday": "1988-05-07T00:00:00.000+00:00",
+                                    "blood": 2,
+                                    "sex": "male",
+                                    "levelActivity": 5
+                                }
+                            },
+                            "createdAt": {
+                                "type": "date",
+                                "example": "2023-09-19T19:55:19.539+00:00"
+                            }
+                        }
+                    }
+                }
+            },
+            "User": {
+                "type": "object",
+                "required": [
+                    "name",
+                    "email",
+                    "password"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "example": "Vijay Pratap Singh"
+                    },
+                    "email": {
+                        "type": "string",
+                        "format": "email",
+                        "example": "vijaypratapsingh@gmail.com"
+                    },
+                    "avatarURL": {
+                        "type": "string",
+                        "example": "//www.gravatar.com/avatar/681cc53f6ba12f990cc1ae04f63ee53c"
+                    },
+                    "userParams": {
+                        "type": "object",
+                        "example": {
+                            "height": 190,
+                            "currentWeight": 82,
+                            "desiredWeight": 74,
+                            "birthday": "1988-05-07T00:00:00.000+00:00",
+                            "blood": 2,
+                            "sex": "male",
+                            "levelActivity": 5
+                        }
+                    },
+                    "createdAt": {
+                        "type": "date",
+                        "example": "2023-09-19T19:55:19.539+00:00"
+                    }
+                }
+            }
+        },
+        "securitySchemes": {
+            "Bearer": {
+                "type": "http",
+                "scheme": "bearer",
+                "bearerFormat": "JWT"
+            }
+        }
+    }
+}
