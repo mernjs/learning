@@ -1,2 +1,80 @@
+# Node dependencies
+/node_modules
+
+# Logs
+logs
+*.log
+
 # OS files
 .DS_Store
+Thumbs.db
+
+# IDE files
+.vscode
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Environment variables
+.env
+.env.local
+.env.test
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+/dist
+/build
+/out
+/next
+/out
+
+# ElectronJS specific
+/build
+/dist
+/out
+*.pid
+*.seed
+
+# Expo specific
+.expo
+.expo-shared
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig
+*.rej
+
+# FastifyJS specific
+logs
+
+# Kotlin specific
+/.gradle
+/build
+/out
+/**/*.class
+
+# NextJS specific
+.next
+
+# React Native specific
+/android/.gradle
+/android/app/build
+/android/app/.cxx
+/android/local.properties
+ios/Pods/
+ios/build/
+
+# SwiftUI specific
+build/
+DerivedData/
+*.hmap
+*.ipa
+/.build/
+Pods/
+Carthage/Build/

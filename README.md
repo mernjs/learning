@@ -1,8 +1,16 @@
-<h4>Technology Sample Projects: A Year-by-Year Exploration of Different Technologies</h4>
+<h4>A Variety of Technology Sample Projects</h4>
 
-Explore a collection of technology sample projects organized by year, Perfect for developers to learn and gain hands-on experience with new tools and frameworks
+Explore a collection of sample projects using different technologies. Perfect for developers to learn and gain hands-on experience with new tools and frameworks.
 
-| SN. | Branch | Code |
+| SN. | Technologies | Code |
 | ------ | ------ | ------ |
-| 1 | [2024](https://github.com/mernjs/experimental-apps/tree/2024) | [![View](https://custom-icon-badges.herokuapp.com/badge/-View-blue?style=for-the-badge&logo=view&logoColor=white "View")](https://github.com/mernjs/experimental-apps/tree/2024) |
-| 2 | [2023](https://github.com/mernjs/experimental-apps/tree/2023) | [![View](https://custom-icon-badges.herokuapp.com/badge/-View-blue?style=for-the-badge&logo=view&logoColor=white "View")](https://github.com/mernjs/experimental-apps/tree/2023) |
+| 1 | [ElectronJS Projects](https://github.com/mernjs/experimental-apps/tree/2024/ElectronJS) | [![View Details](https://custom-icon-badges.herokuapp.com/badge/-View%20Details-blue?style=for-the-badge&logo=view&logoColor=white "View Details")](https://github.com/mernjs/experimental-apps/tree/2024/ElectronJS) |
+| 2 | [Expo Projects](https://github.com/mernjs/experimental-apps/tree/2024/Expo) | [![View Details](https://custom-icon-badges.herokuapp.com/badge/-View%20Details-blue?style=for-the-badge&logo=view&logoColor=white "View Details")](https://github.com/mernjs/experimental-apps/tree/2024/Expo) |
+| 3 | [FastifyJS Projects](https://github.com/mernjs/experimental-apps/tree/2024/FastifyJS) | [![View Details](https://custom-icon-badges.herokuapp.com/badge/-View%20Details-blue?style=for-the-badge&logo=view&logoColor=white "View Details")](https://github.com/mernjs/experimental-apps/tree/2024/FastifyJS) |
+| 4 | [JavaScript Projects](https://github.com/mernjs/experimental-apps/tree/2024/JavaScript) | [![View Details](https://custom-icon-badges.herokuapp.com/badge/-View%20Details-blue?style=for-the-badge&logo=view&logoColor=white "View Details")](https://github.com/mernjs/experimental-apps/tree/2024/JavaScript) |
+| 5 | [Kotlin Projects](https://github.com/mernjs/experimental-apps/tree/2024/Kotlin) | [![View Details](https://custom-icon-badges.herokuapp.com/badge/-View%20Details-blue?style=for-the-badge&logo=view&logoColor=white "View Details")](https://github.com/mernjs/experimental-apps/tree/2024/Kotlin) |
+| 6 | [NextJS Projects](https://github.com/mernjs/experimental-apps/tree/2024/NextJS) | [![View Details](https://custom-icon-badges.herokuapp.com/badge/-View%20Details-blue?style=for-the-badge&logo=view&logoColor=white "View Details")](https://github.com/mernjs/experimental-apps/tree/2024/NextJS) |
+| 7 | [NodeJS Projects](https://github.com/mernjs/experimental-apps/tree/2024/NodeJS) | [![View Details](https://custom-icon-badges.herokuapp.com/badge/-View%20Details-blue?style=for-the-badge&logo=view&logoColor=white "View Details")](https://github.com/mernjs/experimental-apps/tree/2024/NodeJS) |
+| 8 | [React Native Projects](https://github.com/mernjs/experimental-apps/tree/2024/React%20Native) | [![View Details](https://custom-icon-badges.herokuapp.com/badge/-View%20Details-blue?style=for-the-badge&logo=view&logoColor=white "View Details")](https://github.com/mernjs/experimental-apps/tree/2024/React%20Native) |
+| 9 | [ReactJS Projects](https://github.com/mernjs/experimental-apps/tree/2024/ReactJS) | [![View Details](https://custom-icon-badges.herokuapp.com/badge/-View%20Details-blue?style=for-the-badge&logo=view&logoColor=white "View Details")](https://github.com/mernjs/experimental-apps/tree/2024/ReactJS) |
+| 10 | [SwiftUI Projects](https://github.com/mernjs/experimental-apps/tree/2024/SwiftUI) | [![View Details](https://custom-icon-badges.herokuapp.com/badge/-View%20Details-blue?style=for-the-badge&logo=view&logoColor=white "View Details")](https://github.com/mernjs/experimental-apps/tree/2024/SwiftUI) |
