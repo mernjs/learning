@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEFB6DEF2C12218300EAEE73 /* ImageCropperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFB6DEE2C12218300EAEE73 /* ImageCropperApp.swift */; };
+		EEFB6DF12C12218300EAEE73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFB6DF02C12218300EAEE73 /* ContentView.swift */; };
+		EEFB6DF32C12218800EAEE73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFB6DF22C12218800EAEE73 /* Assets.xcassets */; };
+		EEFB6DF72C12218800EAEE73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFB6DF62C12218800EAEE73 /* Preview Assets.xcassets */; };
+		EEFB6E012C12218800EAEE73 /* ImageCropperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFB6E002C12218800EAEE73 /* ImageCropperTests.swift */; };
+		EEFB6E0B2C12218800EAEE73 /* ImageCropperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFB6E0A2C12218800EAEE73 /* ImageCropperUITests.swift */; };
+		EEFB6E0D2C12218800EAEE73 /* ImageCropperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFB6E0C2C12218800EAEE73 /* ImageCropperUITestsLaunchTests.swift */; };
+		EEFB6E1B2C1222C600EAEE73 /* Mantis in Frameworks */ = {isa = PBXBuildFile; productRef = EEFB6E1A2C1222C600EAEE73 /* Mantis */; };
+		EEFB6E1D2C12247700EAEE73 /* ImageCropperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFB6E1C2C12247700EAEE73 /* ImageCropperView.swift */; };
+		EEFB6E1F2C1242FF00EAEE73 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFB6E1E2C1242FF00EAEE73 /* ImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEFB6DFD2C12218800EAEE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFB6DE32C12218300EAEE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFB6DEA2C12218300EAEE73;
+			remoteInfo = ImageCropper;
+		};
+		EEFB6E072C12218800EAEE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFB6DE32C12218300EAEE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFB6DEA2C12218300EAEE73;
+			remoteInfo = ImageCropper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEFB6DEB2C12218300EAEE73 /* ImageCropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFB6DEE2C12218300EAEE73 /* ImageCropperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperApp.swift; sourceTree = "<group>"; };
+		EEFB6DF02C12218300EAEE73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEFB6DF22C12218800EAEE73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEFB6DF42C12218800EAEE73 /* ImageCropper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImageCropper.entitlements; sourceTree = "<group>"; };
+		EEFB6DF62C12218800EAEE73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEFB6DFC2C12218800EAEE73 /* ImageCropperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCropperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFB6E002C12218800EAEE73 /* ImageCropperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperTests.swift; sourceTree = "<group>"; };
+		EEFB6E062C12218800EAEE73 /* ImageCropperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCropperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFB6E0A2C12218800EAEE73 /* ImageCropperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperUITests.swift; sourceTree = "<group>"; };
+		EEFB6E0C2C12218800EAEE73 /* ImageCropperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEFB6E1C2C12247700EAEE73 /* ImageCropperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperView.swift; sourceTree = "<group>"; };
+		EEFB6E1E2C1242FF00EAEE73 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEFB6DE82C12218300EAEE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFB6E1B2C1222C600EAEE73 /* Mantis in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB6DF92C12218800EAEE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB6E032C12218800EAEE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEFB6DE22C12218300EAEE73 = {
+			isa = PBXGroup;
+			children = (
+				EEFB6DED2C12218300EAEE73 /* ImageCropper */,
+				EEFB6DFF2C12218800EAEE73 /* ImageCropperTests */,
+				EEFB6E092C12218800EAEE73 /* ImageCropperUITests */,
+				EEFB6DEC2C12218300EAEE73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEFB6DEC2C12218300EAEE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEFB6DEB2C12218300EAEE73 /* ImageCropper.app */,
+				EEFB6DFC2C12218800EAEE73 /* ImageCropperTests.xctest */,
+				EEFB6E062C12218800EAEE73 /* ImageCropperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEFB6DED2C12218300EAEE73 /* ImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				EEFB6E1C2C12247700EAEE73 /* ImageCropperView.swift */,
+				EEFB6DEE2C12218300EAEE73 /* ImageCropperApp.swift */,
+				EEFB6DF02C12218300EAEE73 /* ContentView.swift */,
+				EEFB6E1E2C1242FF00EAEE73 /* ImageView.swift */,
+				EEFB6DF22C12218800EAEE73 /* Assets.xcassets */,
+				EEFB6DF42C12218800EAEE73 /* ImageCropper.entitlements */,
+				EEFB6DF52C12218800EAEE73 /* Preview Content */,
+			);
+			path = ImageCropper;
+			sourceTree = "<group>";
+		};
+		EEFB6DF52C12218800EAEE73 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEFB6DF62C12218800EAEE73 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEFB6DFF2C12218800EAEE73 /* ImageCropperTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFB6E002C12218800EAEE73 /* ImageCropperTests.swift */,
+			);
+			path = ImageCropperTests;
+			sourceTree = "<group>";
+		};
+		EEFB6E092C12218800EAEE73 /* ImageCropperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFB6E0A2C12218800EAEE73 /* ImageCropperUITests.swift */,
+				EEFB6E0C2C12218800EAEE73 /* ImageCropperUITestsLaunchTests.swift */,
+			);
+			path = ImageCropperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEFB6DEA2C12218300EAEE73 /* ImageCropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFB6E102C12218800EAEE73 /* Build configuration list for PBXNativeTarget "ImageCropper" */;
+			buildPhases = (
+				EEFB6DE72C12218300EAEE73 /* Sources */,
+				EEFB6DE82C12218300EAEE73 /* Frameworks */,
+				EEFB6DE92C12218300EAEE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageCropper;
+			packageProductDependencies = (
+				EEFB6E1A2C1222C600EAEE73 /* Mantis */,
+			);
+			productName = ImageCropper;
+			productReference = EEFB6DEB2C12218300EAEE73 /* ImageCropper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEFB6DFB2C12218800EAEE73 /* ImageCropperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFB6E132C12218800EAEE73 /* Build configuration list for PBXNativeTarget "ImageCropperTests" */;
+			buildPhases = (
+				EEFB6DF82C12218800EAEE73 /* Sources */,
+				EEFB6DF92C12218800EAEE73 /* Frameworks */,
+				EEFB6DFA2C12218800EAEE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFB6DFE2C12218800EAEE73 /* PBXTargetDependency */,
+			);
+			name = ImageCropperTests;
+			productName = ImageCropperTests;
+			productReference = EEFB6DFC2C12218800EAEE73 /* ImageCropperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEFB6E052C12218800EAEE73 /* ImageCropperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFB6E162C12218800EAEE73 /* Build configuration list for PBXNativeTarget "ImageCropperUITests" */;
+			buildPhases = (
+				EEFB6E022C12218800EAEE73 /* Sources */,
+				EEFB6E032C12218800EAEE73 /* Frameworks */,
+				EEFB6E042C12218800EAEE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFB6E082C12218800EAEE73 /* PBXTargetDependency */,
+			);
+			name = ImageCropperUITests;
+			productName = ImageCropperUITests;
+			productReference = EEFB6E062C12218800EAEE73 /* ImageCropperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEFB6DE32C12218300EAEE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EEFB6DEA2C12218300EAEE73 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EEFB6DFB2C12218800EAEE73 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EEFB6DEA2C12218300EAEE73;
+					};
+					EEFB6E052C12218800EAEE73 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EEFB6DEA2C12218300EAEE73;
+					};
+				};
+			};
+			buildConfigurationList = EEFB6DE62C12218300EAEE73 /* Build configuration list for PBXProject "ImageCropper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEFB6DE22C12218300EAEE73;
+			packageReferences = (
+				EEFB6E192C1222C600EAEE73 /* XCRemoteSwiftPackageReference "Mantis" */,
+			);
+			productRefGroup = EEFB6DEC2C12218300EAEE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEFB6DEA2C12218300EAEE73 /* ImageCropper */,
+				EEFB6DFB2C12218800EAEE73 /* ImageCropperTests */,
+				EEFB6E052C12218800EAEE73 /* ImageCropperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEFB6DE92C12218300EAEE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFB6DF72C12218800EAEE73 /* Preview Assets.xcassets in Resources */,
+				EEFB6DF32C12218800EAEE73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB6DFA2C12218800EAEE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB6E042C12218800EAEE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEFB6DE72C12218300EAEE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFB6E1F2C1242FF00EAEE73 /* ImageView.swift in Sources */,
+				EEFB6DF12C12218300EAEE73 /* ContentView.swift in Sources */,
+				EEFB6DEF2C12218300EAEE73 /* ImageCropperApp.swift in Sources */,
+				EEFB6E1D2C12247700EAEE73 /* ImageCropperView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB6DF82C12218800EAEE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFB6E012C12218800EAEE73 /* ImageCropperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB6E022C12218800EAEE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFB6E0D2C12218800EAEE73 /* ImageCropperUITestsLaunchTests.swift in Sources */,
+				EEFB6E0B2C12218800EAEE73 /* ImageCropperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEFB6DFE2C12218800EAEE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFB6DEA2C12218300EAEE73 /* ImageCropper */;
+			targetProxy = EEFB6DFD2C12218800EAEE73 /* PBXContainerItemProxy */;
+		};
+		EEFB6E082C12218800EAEE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFB6DEA2C12218300EAEE73 /* ImageCropper */;
+			targetProxy = EEFB6E072C12218800EAEE73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EEFB6E0E2C12218800EAEE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEFB6E0F2C12218800EAEE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EEFB6E112C12218800EAEE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ImageCropper/ImageCropper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageCropper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.ImageCropper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEFB6E122C12218800EAEE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ImageCropper/ImageCropper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageCropper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.ImageCropper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEFB6E142C12218800EAEE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.ImageCropperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageCropper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageCropper";
+			};
+			name = Debug;
+		};
+		EEFB6E152C12218800EAEE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.ImageCropperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageCropper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageCropper";
+			};
+			name = Release;
+		};
+		EEFB6E172C12218800EAEE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.ImageCropperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageCropper;
+			};
+			name = Debug;
+		};
+		EEFB6E182C12218800EAEE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.ImageCropperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageCropper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEFB6DE62C12218300EAEE73 /* Build configuration list for PBXProject "ImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFB6E0E2C12218800EAEE73 /* Debug */,
+				EEFB6E0F2C12218800EAEE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFB6E102C12218800EAEE73 /* Build configuration list for PBXNativeTarget "ImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFB6E112C12218800EAEE73 /* Debug */,
+				EEFB6E122C12218800EAEE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFB6E132C12218800EAEE73 /* Build configuration list for PBXNativeTarget "ImageCropperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFB6E142C12218800EAEE73 /* Debug */,
+				EEFB6E152C12218800EAEE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFB6E162C12218800EAEE73 /* Build configuration list for PBXNativeTarget "ImageCropperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFB6E172C12218800EAEE73 /* Debug */,
+				EEFB6E182C12218800EAEE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EEFB6E192C1222C600EAEE73 /* XCRemoteSwiftPackageReference "Mantis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/guoyingtao/Mantis";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EEFB6E1A2C1222C600EAEE73 /* Mantis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEFB6E192C1222C600EAEE73 /* XCRemoteSwiftPackageReference "Mantis" */;
+			productName = Mantis;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EEFB6DE32C12218300EAEE73 /* Project object */;
+}
