@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CAA2E722C19E2380004E15D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA2E712C19E2380004E15D /* SceneDelegate.swift */; };
+		5CAA2E742C19E2470004E15D /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA2E732C19E2470004E15D /* NavigationController.swift */; };
+		5CF5C8522C19A3EE007ADDE0 /* ToastAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5C8512C19A3EE007ADDE0 /* ToastAlertApp.swift */; };
+		5CF5C8542C19A3EE007ADDE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5C8532C19A3EE007ADDE0 /* ContentView.swift */; };
+		5CF5C8562C19A3EF007ADDE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF5C8552C19A3EF007ADDE0 /* Assets.xcassets */; };
+		5CF5C8592C19A3EF007ADDE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF5C8582C19A3EF007ADDE0 /* Preview Assets.xcassets */; };
+		5CF5C8632C19A3EF007ADDE0 /* ToastAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5C8622C19A3EF007ADDE0 /* ToastAlertTests.swift */; };
+		5CF5C86D2C19A3EF007ADDE0 /* ToastAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5C86C2C19A3EF007ADDE0 /* ToastAlertUITests.swift */; };
+		5CF5C86F2C19A3EF007ADDE0 /* ToastAlertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5C86E2C19A3EF007ADDE0 /* ToastAlertUITestsLaunchTests.swift */; };
+		5CF5C87D2C19A4E9007ADDE0 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 5CF5C87C2C19A4E9007ADDE0 /* AlertToast */; };
+		5CF5C87F2C19A513007ADDE0 /* ShowToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5C87E2C19A513007ADDE0 /* ShowToast.swift */; };
+		5CF5C8822C19A818007ADDE0 /* SwiftEntryKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5CF5C8812C19A818007ADDE0 /* SwiftEntryKit */; };
+		5CF5C8842C19AF27007ADDE0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5C8832C19AF27007ADDE0 /* LoginViewController.swift */; };
+		5CF5C8862C19BB21007ADDE0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5C8852C19BB21007ADDE0 /* LoginView.swift */; };
+		5CF5C88A2C19DA07007ADDE0 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5C8892C19DA07007ADDE0 /* SignupViewController.swift */; };
+		5CF5C88C2C19DA3B007ADDE0 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5C88B2C19DA3B007ADDE0 /* SignupView.swift */; };
+		5CF5C88E2C19DB07007ADDE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5C88D2C19DB07007ADDE0 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CF5C85F2C19A3EF007ADDE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CF5C8462C19A3EE007ADDE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF5C84D2C19A3EE007ADDE0;
+			remoteInfo = ToastAlert;
+		};
+		5CF5C8692C19A3EF007ADDE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CF5C8462C19A3EE007ADDE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF5C84D2C19A3EE007ADDE0;
+			remoteInfo = ToastAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CAA2E712C19E2380004E15D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5CAA2E732C19E2470004E15D /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		5CF5C84E2C19A3EE007ADDE0 /* ToastAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToastAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF5C8512C19A3EE007ADDE0 /* ToastAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastAlertApp.swift; sourceTree = "<group>"; };
+		5CF5C8532C19A3EE007ADDE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5CF5C8552C19A3EF007ADDE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CF5C8582C19A3EF007ADDE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CF5C85E2C19A3EF007ADDE0 /* ToastAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF5C8622C19A3EF007ADDE0 /* ToastAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastAlertTests.swift; sourceTree = "<group>"; };
+		5CF5C8682C19A3EF007ADDE0 /* ToastAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF5C86C2C19A3EF007ADDE0 /* ToastAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastAlertUITests.swift; sourceTree = "<group>"; };
+		5CF5C86E2C19A3EF007ADDE0 /* ToastAlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastAlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5CF5C87E2C19A513007ADDE0 /* ShowToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowToast.swift; sourceTree = "<group>"; };
+		5CF5C8832C19AF27007ADDE0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5CF5C8852C19BB21007ADDE0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5CF5C8892C19DA07007ADDE0 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		5CF5C88B2C19DA3B007ADDE0 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		5CF5C88D2C19DB07007ADDE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF5C84B2C19A3EE007ADDE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF5C8822C19A818007ADDE0 /* SwiftEntryKit in Frameworks */,
+				5CF5C87D2C19A4E9007ADDE0 /* AlertToast in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF5C85B2C19A3EF007ADDE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF5C8652C19A3EF007ADDE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF5C8452C19A3EE007ADDE0 = {
+			isa = PBXGroup;
+			children = (
+				5CF5C8502C19A3EE007ADDE0 /* ToastAlert */,
+				5CF5C8612C19A3EF007ADDE0 /* ToastAlertTests */,
+				5CF5C86B2C19A3EF007ADDE0 /* ToastAlertUITests */,
+				5CF5C84F2C19A3EE007ADDE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CF5C84F2C19A3EE007ADDE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF5C84E2C19A3EE007ADDE0 /* ToastAlert.app */,
+				5CF5C85E2C19A3EF007ADDE0 /* ToastAlertTests.xctest */,
+				5CF5C8682C19A3EF007ADDE0 /* ToastAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF5C8502C19A3EE007ADDE0 /* ToastAlert */ = {
+			isa = PBXGroup;
+			children = (
+				5CF5C8882C19D9E5007ADDE0 /* Views */,
+				5CF5C8872C19D9D6007ADDE0 /* ViewControllers */,
+				5CF5C8512C19A3EE007ADDE0 /* ToastAlertApp.swift */,
+				5CF5C8532C19A3EE007ADDE0 /* ContentView.swift */,
+				5CF5C8552C19A3EF007ADDE0 /* Assets.xcassets */,
+				5CF5C8572C19A3EF007ADDE0 /* Preview Content */,
+				5CF5C87E2C19A513007ADDE0 /* ShowToast.swift */,
+				5CF5C88D2C19DB07007ADDE0 /* AppDelegate.swift */,
+				5CAA2E712C19E2380004E15D /* SceneDelegate.swift */,
+				5CAA2E732C19E2470004E15D /* NavigationController.swift */,
+			);
+			path = ToastAlert;
+			sourceTree = "<group>";
+		};
+		5CF5C8572C19A3EF007ADDE0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5CF5C8582C19A3EF007ADDE0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CF5C8612C19A3EF007ADDE0 /* ToastAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF5C8622C19A3EF007ADDE0 /* ToastAlertTests.swift */,
+			);
+			path = ToastAlertTests;
+			sourceTree = "<group>";
+		};
+		5CF5C86B2C19A3EF007ADDE0 /* ToastAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF5C86C2C19A3EF007ADDE0 /* ToastAlertUITests.swift */,
+				5CF5C86E2C19A3EF007ADDE0 /* ToastAlertUITestsLaunchTests.swift */,
+			);
+			path = ToastAlertUITests;
+			sourceTree = "<group>";
+		};
+		5CF5C8872C19D9D6007ADDE0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5CF5C8832C19AF27007ADDE0 /* LoginViewController.swift */,
+				5CF5C8892C19DA07007ADDE0 /* SignupViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5CF5C8882C19D9E5007ADDE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CF5C8852C19BB21007ADDE0 /* LoginView.swift */,
+				5CF5C88B2C19DA3B007ADDE0 /* SignupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CF5C84D2C19A3EE007ADDE0 /* ToastAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF5C8722C19A3EF007ADDE0 /* Build configuration list for PBXNativeTarget "ToastAlert" */;
+			buildPhases = (
+				5CF5C84A2C19A3EE007ADDE0 /* Sources */,
+				5CF5C84B2C19A3EE007ADDE0 /* Frameworks */,
+				5CF5C84C2C19A3EE007ADDE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToastAlert;
+			packageProductDependencies = (
+				5CF5C87C2C19A4E9007ADDE0 /* AlertToast */,
+				5CF5C8812C19A818007ADDE0 /* SwiftEntryKit */,
+			);
+			productName = ToastAlert;
+			productReference = 5CF5C84E2C19A3EE007ADDE0 /* ToastAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CF5C85D2C19A3EF007ADDE0 /* ToastAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF5C8752C19A3EF007ADDE0 /* Build configuration list for PBXNativeTarget "ToastAlertTests" */;
+			buildPhases = (
+				5CF5C85A2C19A3EF007ADDE0 /* Sources */,
+				5CF5C85B2C19A3EF007ADDE0 /* Frameworks */,
+				5CF5C85C2C19A3EF007ADDE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF5C8602C19A3EF007ADDE0 /* PBXTargetDependency */,
+			);
+			name = ToastAlertTests;
+			productName = ToastAlertTests;
+			productReference = 5CF5C85E2C19A3EF007ADDE0 /* ToastAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CF5C8672C19A3EF007ADDE0 /* ToastAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF5C8782C19A3EF007ADDE0 /* Build configuration list for PBXNativeTarget "ToastAlertUITests" */;
+			buildPhases = (
+				5CF5C8642C19A3EF007ADDE0 /* Sources */,
+				5CF5C8652C19A3EF007ADDE0 /* Frameworks */,
+				5CF5C8662C19A3EF007ADDE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF5C86A2C19A3EF007ADDE0 /* PBXTargetDependency */,
+			);
+			name = ToastAlertUITests;
+			productName = ToastAlertUITests;
+			productReference = 5CF5C8682C19A3EF007ADDE0 /* ToastAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CF5C8462C19A3EE007ADDE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5CF5C84D2C19A3EE007ADDE0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5CF5C85D2C19A3EF007ADDE0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5CF5C84D2C19A3EE007ADDE0;
+					};
+					5CF5C8672C19A3EF007ADDE0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5CF5C84D2C19A3EE007ADDE0;
+					};
+				};
+			};
+			buildConfigurationList = 5CF5C8492C19A3EE007ADDE0 /* Build configuration list for PBXProject "ToastAlert" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CF5C8452C19A3EE007ADDE0;
+			packageReferences = (
+				5CF5C87B2C19A4E9007ADDE0 /* XCRemoteSwiftPackageReference "AlertToast" */,
+				5CF5C8802C19A818007ADDE0 /* XCRemoteSwiftPackageReference "SwiftEntryKit" */,
+			);
+			productRefGroup = 5CF5C84F2C19A3EE007ADDE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CF5C84D2C19A3EE007ADDE0 /* ToastAlert */,
+				5CF5C85D2C19A3EF007ADDE0 /* ToastAlertTests */,
+				5CF5C8672C19A3EF007ADDE0 /* ToastAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF5C84C2C19A3EE007ADDE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF5C8592C19A3EF007ADDE0 /* Preview Assets.xcassets in Resources */,
+				5CF5C8562C19A3EF007ADDE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF5C85C2C19A3EF007ADDE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF5C8662C19A3EF007ADDE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF5C84A2C19A3EE007ADDE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF5C88E2C19DB07007ADDE0 /* AppDelegate.swift in Sources */,
+				5CF5C88C2C19DA3B007ADDE0 /* SignupView.swift in Sources */,
+				5CAA2E722C19E2380004E15D /* SceneDelegate.swift in Sources */,
+				5CF5C88A2C19DA07007ADDE0 /* SignupViewController.swift in Sources */,
+				5CF5C87F2C19A513007ADDE0 /* ShowToast.swift in Sources */,
+				5CF5C8542C19A3EE007ADDE0 /* ContentView.swift in Sources */,
+				5CF5C8862C19BB21007ADDE0 /* LoginView.swift in Sources */,
+				5CAA2E742C19E2470004E15D /* NavigationController.swift in Sources */,
+				5CF5C8842C19AF27007ADDE0 /* LoginViewController.swift in Sources */,
+				5CF5C8522C19A3EE007ADDE0 /* ToastAlertApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF5C85A2C19A3EF007ADDE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF5C8632C19A3EF007ADDE0 /* ToastAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF5C8642C19A3EF007ADDE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF5C86D2C19A3EF007ADDE0 /* ToastAlertUITests.swift in Sources */,
+				5CF5C86F2C19A3EF007ADDE0 /* ToastAlertUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CF5C8602C19A3EF007ADDE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF5C84D2C19A3EE007ADDE0 /* ToastAlert */;
+			targetProxy = 5CF5C85F2C19A3EF007ADDE0 /* PBXContainerItemProxy */;
+		};
+		5CF5C86A2C19A3EF007ADDE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF5C84D2C19A3EE007ADDE0 /* ToastAlert */;
+			targetProxy = 5CF5C8692C19A3EF007ADDE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5CF5C8702C19A3EF007ADDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CF5C8712C19A3EF007ADDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CF5C8732C19A3EF007ADDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToastAlert/Preview Content\"";
+				DEVELOPMENT_TEAM = 3K3WPM5989;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hestabit.ToastAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CF5C8742C19A3EF007ADDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToastAlert/Preview Content\"";
+				DEVELOPMENT_TEAM = 3K3WPM5989;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hestabit.ToastAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CF5C8762C19A3EF007ADDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K3WPM5989;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hestabit.ToastAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToastAlert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToastAlert";
+			};
+			name = Debug;
+		};
+		5CF5C8772C19A3EF007ADDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K3WPM5989;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hestabit.ToastAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToastAlert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToastAlert";
+			};
+			name = Release;
+		};
+		5CF5C8792C19A3EF007ADDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K3WPM5989;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hestabit.ToastAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToastAlert;
+			};
+			name = Debug;
+		};
+		5CF5C87A2C19A3EF007ADDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K3WPM5989;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hestabit.ToastAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToastAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF5C8492C19A3EE007ADDE0 /* Build configuration list for PBXProject "ToastAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF5C8702C19A3EF007ADDE0 /* Debug */,
+				5CF5C8712C19A3EF007ADDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF5C8722C19A3EF007ADDE0 /* Build configuration list for PBXNativeTarget "ToastAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF5C8732C19A3EF007ADDE0 /* Debug */,
+				5CF5C8742C19A3EF007ADDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF5C8752C19A3EF007ADDE0 /* Build configuration list for PBXNativeTarget "ToastAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF5C8762C19A3EF007ADDE0 /* Debug */,
+				5CF5C8772C19A3EF007ADDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF5C8782C19A3EF007ADDE0 /* Build configuration list for PBXNativeTarget "ToastAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF5C8792C19A3EF007ADDE0 /* Debug */,
+				5CF5C87A2C19A3EF007ADDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5CF5C87B2C19A4E9007ADDE0 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
+		5CF5C8802C19A818007ADDE0 /* XCRemoteSwiftPackageReference "SwiftEntryKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huri000/SwiftEntryKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5CF5C87C2C19A4E9007ADDE0 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CF5C87B2C19A4E9007ADDE0 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		5CF5C8812C19A818007ADDE0 /* SwiftEntryKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CF5C8802C19A818007ADDE0 /* XCRemoteSwiftPackageReference "SwiftEntryKit" */;
+			productName = SwiftEntryKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5CF5C8462C19A3EE007ADDE0 /* Project object */;
+}
