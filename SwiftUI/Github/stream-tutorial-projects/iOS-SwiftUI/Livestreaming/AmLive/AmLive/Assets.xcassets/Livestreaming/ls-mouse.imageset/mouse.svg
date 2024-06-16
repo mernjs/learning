@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="15px" viewBox="0 0 18 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mouse</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="hands" transform="translate(-2.991865, -20.190141)" fill="#818181" stroke="#000000" stroke-width="2.07">
+            <path d="M5,33.2303163 C10.9686656,34.2565612 15.3909995,34.2565612 18.2670017,33.2303163 C22.581005,31.690949 18.2670017,20.6037439 11.6335009,22.146922 C7.21116695,23.1757074 5,26.8701722 5,33.2303163 Z" id="mouse"></path>
+        </g>
+    </g>
+</svg>

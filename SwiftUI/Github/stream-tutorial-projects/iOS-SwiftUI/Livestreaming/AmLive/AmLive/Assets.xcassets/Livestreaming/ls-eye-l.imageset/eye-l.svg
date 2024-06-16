@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="29px" viewBox="0 0 28 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>eye-l</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eye-l" transform="translate(14.000000, 14.500000) rotate(-47.000000) translate(-14.000000, -14.500000) translate(5.000000, 4.000000)">
+            <ellipse id="Oval" fill="#000000" transform="translate(9.000000, 10.500000) rotate(21.000000) translate(-9.000000, -10.500000) " cx="9" cy="10.5" rx="6.3993222" ry="8.7034224"></ellipse>
+            <ellipse id="Oval-Copy" fill="#FFFFFF" transform="translate(9.000000, 7.880144) rotate(21.000000) translate(-9.000000, -7.880144) " cx="9" cy="7.8801445" rx="1.91979666" ry="2.61102672"></ellipse>
+        </g>
+    </g>
+</svg>
