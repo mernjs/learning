@@ -1,0 +1,23 @@
+//
+//  ContentView.swift
+//  CameraApp
+//
+//  Created by Development Hestabit on 30/04/24.
+//
+
+import SwiftUI
+import AVFoundation
+import UXCam
+
+struct ContentView: View {
+    
+    var body: some View {
+        QAModelView()
+            .onAppear {
+                let configuration = UXCamConfiguration(appKey: "vxqwpi095mifhs5")
+                configuration.enableAdvancedGestureRecognition = true
+                UXCam.optIntoSchematicRecordings()
+                UXCam.start(with: configuration)
+            }
+    }
+}
